@@ -4,3 +4,107 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+:root{
+    --primary-color: #FF900E;
+    --secondary-color: #131313;
+    --grey: #424242;
+    --light-grey: #727272;
+    --head-bg: #fff4e7;
+    --white: #fff;
+    --black: #000;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1.25rem 1.56rem;
+    border-radius: 0.5rem;
+
+}
+
+
+/* ------------------------
+        header styles
+--------------------------- */
+
+/* navbar styles */
+
+.header-container{
+    background-color: var(--head-bg);
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.125rem 0;
+}
+
+.nav-heading{
+    font-size: 2.81rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.nav-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.nav-option a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+/* banner styles */
+
+.banner-texts{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 54.25rem;
+}
+
+.banner-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.68rem;
+    color: #131313;
+    margin: 3.67rem 0 0 0;
+}
+
+.banner-subtitle{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: var(--light-grey);
+    margin: 2rem 0 0 0;
+}
+
+.banner-btn{
+    margin: 2rem 0 0 0;
+}
+
+.banner-image{
+    width: 100%;
+    max-width: 90rem;
+    padding: 3.125rem 0 2.8rem 0;
+
+}
+
