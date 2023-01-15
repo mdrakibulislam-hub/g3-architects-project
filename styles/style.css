@@ -81,6 +81,10 @@
 
 /* banner styles */
 
+.banner-container{
+    text-align: center;
+}
+
 .banner-texts{
     margin: 0 auto;
     text-align: center;
@@ -105,11 +109,15 @@
 }
 
 .banner-image{
-    width: 100%;
+    width: 95%;
     max-width: 90rem;
+    text-align: center;
     padding: 3.125rem 0 2.8rem 0;
 
+
 }
+
+
 
 
 
@@ -380,7 +388,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 3rem;
+    padding: 3rem 0 3em 0;
     background-color: var(--head-bg);
     margin-bottom: 3rem;
     border-radius: 1rem;
@@ -472,3 +480,108 @@
     font-weight: 400;
     color: var(--grey);
 }
+
+
+/* -----------------------
+        media queries
+
+Note: I am using max-width 668px width for this mobile media queries so landscpae phones will also get the media query styles and max-width 1200px for medium size devices like tablets.
+
+------------------------ */
+
+@media only screen and (max-width:1200px){
+
+
+    .features-container{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .nav-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-options{
+        padding: 1em 0 0 0;
+        gap: 2rem;
+    }
+    .quick-list{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .features-container{
+        flex-direction: column;
+    }
+
+    .feature-image-button {
+
+        position: absolute;
+        top: 90%;
+        right: 25%;
+    }
+
+    .some-facts-container{
+        text-align: center;  
+    }
+
+    .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
+        max-width: 95%;
+    }
+
+
+}
+
+@media only screen and (max-width:668px){  
+
+
+    .features-container{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    
+
+    .nav-container{
+        justify-content: center;
+    }
+    .nav-options{
+        padding: 1em 0 0 0;
+        gap: 2rem;
+    }
+    .quick-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .quick-list-college{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-container{
+        flex-direction: column;
+    }
+
+    .feature-image-button {
+
+        position: absolute;
+        top: 90%;
+        right: 20%;
+    }
+    .some-facts-container{
+        text-align: center;  
+    }
+
+    .fact-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
+        max-width: 95%;
+    }
+
+    
+
+}
+
+
