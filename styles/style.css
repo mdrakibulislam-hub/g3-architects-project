@@ -133,6 +133,17 @@
     gap: 1.5rem;
 }
 
+
+.quick-list-college img{
+    border-radius: 3%;
+    transition: all 0.5s ease;
+}
+
+.quick-list-college img:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: scale(1.1);
+}
+
 .quick-list-text{
     width: 100%;
     max-width: 33.56rem;
@@ -294,6 +305,14 @@
     border-radius: 5%;
     width: 15rem;
     height: 15rem;
+    transition: all 0.5s ease;
+}
+
+
+.fact-item:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: scale(1.1);
 }
 
 .fact-image{
@@ -344,6 +363,12 @@
 
 .brand-logo{
     filter: grayscale();
+    transition: all 0.5s ease;
+    
+}
+
+.brand-logo:hover{
+    transform: scale(1.1);
 }
 
 
