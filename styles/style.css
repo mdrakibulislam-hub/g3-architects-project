@@ -525,7 +525,7 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
         text-align: center;  
     }
 
-    .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
+    .quicklist, .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
         max-width: 95%;
     }
 
@@ -576,7 +576,7 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
         align-items: center;
     }
 
-    .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
+    .quicklist, .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
         max-width: 95%;
     }
 
