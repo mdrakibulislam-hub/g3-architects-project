@@ -534,13 +534,15 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
 
 @media only screen and (max-width:668px){  
 
+    .banner-heading{
+        font-size: 2.5em;
+        line-height: 3rem;
+    }
 
     .features-container{
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
-
-    
 
     .nav-container{
         justify-content: center;
