@@ -398,7 +398,11 @@
 .contactus-text{
     width: 100%;
     max-width: 40rem;
-    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
 
 .contact-title{
@@ -415,7 +419,8 @@
 .contact-social{
     display: flex;
     gap: 1rem;
-    padding:1rem 0 1rem 0
+    padding:1rem 0 1rem 0;
+
 }
 
 .contact-email-form {
@@ -423,6 +428,10 @@
     max-width: 40rem;
     margin: 0 ;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact-email-form label {
@@ -489,6 +498,7 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
 
 ------------------------ */
 
+
 @media only screen and (max-width:1200px){
 
 
@@ -528,6 +538,8 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
     .quicklist, .contact-us, .contactus-text, .contact-email-form, .sponsors, .footer{
         max-width: 95%;
     }
+
+    
 
 
 }
@@ -582,7 +594,7 @@ Note: I am using max-width 668px width for this mobile media queries so landscpa
         max-width: 95%;
     }
 
-    
+
 
 }
 
